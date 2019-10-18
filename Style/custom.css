@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap');
+
+html {
+    --shadow-2: rgba(0, 0, 0, 0.5);
+}
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.background-image {
+    background-image: url(../img/Background\ Image.jpg);
+    width: 100vw;
+    height: 100vh;
+}
+
+.image-overlay {
+    background: rgba(65,45,56,0.7);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    height: 542px;
+    width: 500px;
+    background-image: linear-gradient(137deg, #ffc7c7, #ca627e 101%);
+    border-radius: 10%;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 5% 32.6%;
+    box-shadow: 12px 12px 40px 0 var(--shadow-2);
+}
+
+h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 25px 0 0 0;
+}
+
+h2 {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 16px;
+}
+
+p {
+    color: white;
+    font-size: 16;
+    margin-top: 48px;
+    margin-bottom: 60px;
+}
+
+.bottom-bar {
+    width: 500px;
+    height: 92px;
+    background: white;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#profile-image {
+    border: white;
+    border-style: solid;
+    border-radius: 80px;
+}
